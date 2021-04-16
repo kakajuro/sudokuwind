@@ -1,0 +1,21 @@
+@import '../index.scss';
+
+.container {
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 5%;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  column-gap: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.sudokuGrid {
+  align-items: center;
+  justify-content: center;
+}

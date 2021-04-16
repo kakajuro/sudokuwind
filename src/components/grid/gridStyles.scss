@@ -1,0 +1,48 @@
+@import '../../index.scss';
+
+.grid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 711px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.tl {
+  border: 2px solid $b;
+}
+
+.tm {
+  border: 2px solid $b;
+}
+
+.tr {
+  border: 2px solid $b;
+}
+
+.ml {
+  border: 2px solid $b;
+
+}
+
+.mm {
+  border: 2px solid $b; 
+}
+
+.mr {
+  border: 2px solid $b;
+
+}
+
+.bl {
+  border: 2px solid $b;
+}
+
+.bm {
+  border: 2px solid $b;
+}
+
+.br {
+  border: 2px solid $b;
+}

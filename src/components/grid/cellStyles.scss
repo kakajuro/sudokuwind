@@ -1,0 +1,34 @@
+@import '../../index.scss';
+
+input {
+  color: black;
+  outline: none;
+  border-color: $b;
+  border-width: 1px;
+  font-size: 1.5em;
+  text-align: center;
+  width: 77px;
+  height: 77px;
+  padding: 0;
+  margin: 0;
+}
+
+.locked {
+  outline: 0px solid transparent;
+  pointer-events: none;
+  background-color: #dddddd;
+}
+
+.cell {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 0;
+  margin: 0;
+  width: 237px;
+  height: 237px;
+}
+
+.inputs:focus {
+  outline: 0px solid transparent;
+}
